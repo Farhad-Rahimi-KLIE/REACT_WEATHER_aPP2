@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(209, 191, 191);
+}
+.container{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 4rem;
+    background-color: darkgray;
+}
+.search input{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 2rem;
+    outline: none;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.search .close{
+    color: red;
+    position: absolute;
+    left: 47.3rem;
+    top: 9rem;
+    cursor: pointer;
+}
+.main .city{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 9rem;
+    position: absolute;
+    top: 16rem;
+}
+.main .temp{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 8rem;
+    position: absolute;
+    top: 21rem;
+}
+.main .min{
+    margin-left: 4rem;
+    position: absolute;
+    top: 26rem;
+}
+.main .max{
+    margin-left: 12rem;
+    position: absolute;
+    top: 26rem;
+}
+.main .sho{
+    position: absolute;
+    top: 25.2rem;
+    margin-left: 10.7rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
